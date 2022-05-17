@@ -362,7 +362,7 @@ contract Apecoin05 is IBEP20, Auth {
     uint256 public liquidityFee    = 1;
     uint256 public reflectionFee   = 1;
     uint256 public marketingFee    = 1;
-    uint256 public devFee          = 0;
+    uint256 public devFee          = 1/2;
     uint256 public totalFee        = marketingFee + reflectionFee + liquidityFee + devFee;
     uint256 public feeDenominator  = 100;
 
